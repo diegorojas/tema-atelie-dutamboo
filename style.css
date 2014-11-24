@@ -11,3 +11,182 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 @import url("../twentyeleven/style.css");
 
+
+img#wpstats {
+	display: none;
+}
+
+img[class*="align"], img[class*="wp-image-"], #content .gallery .gallery-icon img {
+	border: none;
+}
+
+#page {
+	margin: 0 auto;
+}
+
+#branding {
+	border-top: 0;
+}
+
+.page-title {
+	color: #7C0000;
+	font-size: 1.8em;
+	font-weight: bold;
+	letter-spacing: .1em;
+	line-height: 1.6em;
+	margin: 0 0 .5em;
+}
+
+.singular.page .hentry {
+	padding: 1.5em 0 1em;
+}
+
+.singular .entry-title {
+	color: #7c0000;
+}
+
+.singular #content, .left-sidebar.singular #content {
+	margin: 0 3%;
+	position: relative;
+	width: auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	clear: both;
+	font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+.entry-content h1,
+.entry-content h2,
+.comment-content h1,
+.comment-content h2 {
+	color: #7C0000;
+	font-weight: bold;
+	margin: 0 0 .8125em;
+	font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+.entry-content h3,
+.comment-content h3 {
+	font-size: 10px;
+	letter-spacing: .1em;
+	line-height: 2.6em;
+	font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+#author-description h2 {
+	color: #000;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 5px 0 10px;
+	font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+.widget-title {
+	color: #7C0000;
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 1.6em;
+	line-height: 1.3em;
+	margin-bottom: 20px;
+	text-transform: none;
+	letter-spacing: none;
+}
+
+#access a {
+	color: #eee;
+	display: block;
+	line-height: 2.5em;
+	padding: .5em 1em;
+	text-decoration: none;
+	font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+#access {
+	background: #b75b00;
+/* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#340909,#7C0000) repeat scroll 0 0 transparent;
+	background: -o-linear-gradient(#340909,#7C0000);
+	background: -webkit-gradient(linear,0% 0%,0% 100%,from(#340909),to(#7C0000));
+/* older webkit syntax */
+	background: -webkit-linear-gradient(#340909,#7C0000);
+	-webkit-box-shadow: rgba(0,0,0,0.4) 0 1px 2px;
+	-moz-box-shadow: rgba(0,0,0,0.4) 0 1px 2px;
+	box-shadow: rgba(0,0,0,0.4) 0 1px 2px;
+	clear: both;
+	display: block;
+	float: left;
+	margin: 0 auto 6px;
+	width: 100%;
+}
+
+#access ul {
+	font-size: 1.2em;
+	list-style: none;
+	margin: 0 0 0 -.8125em;
+	padding-left: 0;
+}
+
+#access ul ul {
+	top: 2.9em;
+}
+
+.singular .entry-header .entry-meta {
+	display: none;
+}
+
+.singular .hentry {
+	border-bottom: medium none;
+	padding: 1.5em 0;
+	position: relative;
+}
+
+#post-347 h1.entry-title {
+	display: none;
+}
+
+#primary.single-com-valor {
+	width: 75%!important;
+}
+
+#content.com-valor .entry-content {
+	margin: 0 auto;
+	width: 95%;
+}
+
+#sidebar-valores {
+	float: right;
+	margin-right: 5%;
+	width: 20%;
+}
+
+#box-single {
+	background: none repeat scroll 0 0 #efd974;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 15%;
+	min-width: 90px;
+	padding: 0 10% 5% 29%;
+	border-radius: 5px;
+}
+
+#valor-pequeno {
+	background: none repeat scroll 0 0 #EFD974;
+	border-radius: 5px 5px 5px 5px;
+	color: #7C0000;
+	font-weight: 700;
+	padding: 0 0 2% 4%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 15%;
+}
+
+#respond {
+	background: none repeat scroll 0 0 #DDDDDD;
+	border: 1px solid #D3D3D3;
+	border-radius: 3px 3px 3px 3px;
+	margin: 0 0 5% 3%;
+	padding: 1.625em;
+	position: relative;
+	width: 80%;
+}
